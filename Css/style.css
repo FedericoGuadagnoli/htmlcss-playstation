@@ -3,3 +3,19 @@ header .nav-link  {
     color: black;
     font-weight: 500;
 }
+
+
+/* SECTION BUY NOW */
+
+.jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.list-game img {
+    max-width: 100%;
+    border-radius: 10px;
+}

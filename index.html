@@ -12,7 +12,11 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js' integrity='sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==' crossorigin='anonymous'></script>
 </head>
 <body>
+
+  <!-- HEADER -->
     <header>
+
+      <!-- NAVBAR LEFT -->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
@@ -89,34 +93,81 @@
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                   </li>
-                </ul>
-                <form class="d-flex" role="access">
-                    <ul class="navbar-nav me-2 mb-2 mb-lg-0 gap-4 align-items-center">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              my playstation
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                          </li>
-                          <li>
-                              <button class="btn btn-outline bg-dark text-light rounded-pill" type="submit">Accedi</button>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-magnifying-glass text-dark"></i>
-                            </a>
-                        </li>
+                </ul>    
+
+                <!-- NAVBAR RIGHT -->
+                <ul class="navbar-nav me-2 mb-2 mb-lg-0 gap-4 align-items-center">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      my playstation
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                </form>
+                  </li>
+                  <li>
+                    <button class="btn btn-outline bg-dark text-light rounded-pill" type="submit">Accedi</button>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-solid fa-magnifying-glass text-dark"></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </nav>
     </header>
+
+    <!-- SECTION BUY NOW -->
+    <section id="buy-now">
+      <div class="on-screen">
+        <div class="jumbotron position-relative">
+          <div class="container position-absolute bottom-0">
+            <div class="row">
+              <div class="col-12 col-lg-5">
+                <div class="card pb-5 bg-transparent border-0 text-light" >
+                  <img src="img/returnal-hero-banner-logo.png" class="card-img-top" style="width: 18rem;" alt="...">
+                  <div class="card-body">
+                    <h1 class="card-title mb-4">Rompi il cerchio</h1>
+                    <p class="card-text mb-4">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5. </p>
+                    <a href="#" class="btn btn-danger rounded-pill text-capitalize">acquista ora</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-game my-4">
+        <div class="container-fluid">
+          <div class="row g-4">
+            <div class="col-6 col-sm-4 col-lg-2">
+              <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+              <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+              <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+              <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+              <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+              <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
 
 </body>
 </html>
