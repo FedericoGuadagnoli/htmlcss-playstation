@@ -31,3 +31,17 @@ header .nav-link  {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+/* SECTION PLAYSTATION-PLUS */
+#ps-plus {
+    margin-top: 5rem;
+}
+
+#ps-plus.bg-secondary {
+    --bs-bg-opacity: .5;
+}
+
+#ps-plus .bg-light {
+    --bs-bg-opacity: .5;
+}
