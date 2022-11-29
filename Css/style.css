@@ -45,3 +45,11 @@ header .nav-link  {
 #ps-plus .bg-light {
     --bs-bg-opacity: .5;
 }
+
+
+/* SECTION PS-NOW */
+
+#ps-now {
+    background-color: #161c3b;
+    margin-top: 5rem;
+}
