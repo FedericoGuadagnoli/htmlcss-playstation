@@ -65,3 +65,17 @@ footer .footer-top a {
     color: white;
     text-decoration: none;
 }
+
+
+/* HOVER */
+* .btn:hover  {
+    box-shadow: inset 0 0 0 2px white;
+}
+
+#buy-now .btn.btn-danger:hover, #ps-now .btn:hover, #new-releases .btn:hover {
+    box-shadow: inset 0 0 0 2px black;
+}
+
+#ps-plus .btn:hover {
+    box-shadow: inset 0 0 0 2px grey;
+}
