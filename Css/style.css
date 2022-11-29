@@ -53,3 +53,15 @@ header .nav-link  {
     background-color: #161c3b;
     margin-top: 5rem;
 }
+
+
+/* FOOTER */
+footer .language-globe {
+    width: 20px;
+    height: 20px;
+}
+
+footer .footer-top a {
+    color: white;
+    text-decoration: none;
+}
