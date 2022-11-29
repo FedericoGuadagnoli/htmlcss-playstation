@@ -9,14 +9,27 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'/>
     <link rel="stylesheet" href="Css/style.css">
     <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.js' integrity='sha512-L6XANV6sOsx9N9c787eDN1pjB2Pzautd3xDgn4cMKuoleHSuCJi5pCDGPCtwE3Bd4A1Olnr0k0aQXbczYzg+wg==' crossorigin='anonymous'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js' integrity='sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==' crossorigin='anonymous'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/4.2.0/bootstrap-native.min.js" integrity="sha512-GmnAinnWwLr6TlNR+oVdAJE+Nymkf+WkXsZBLTEnJ0GuWhReyRd3GRZHxYw6zHoMPqG6N+/OTm1R6pnCb+MVAQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
 
   <!-- HEADER -->
-    <header>
+    <header class="fixed-top">
+      <div class="header-top bg-dark">
+        <div class="container-fluid h-100">
+          <div class="row h-100">
+            <div class="col-12 h-100">
+              <figure class="h-100 d-flex justify-content-end align-items-center">
+                <img src="img/sony_logo.svg" alt="" class="h-50">
+              </figure>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
       <!-- NAVBAR LEFT -->
+      <div class="header-bottom">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
@@ -30,83 +43,40 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           giochi
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                        </a>       
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           hardware
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                        </a>         
                       </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       servizi
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    </a>                 
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       novità
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    </a>              
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         fai acquisti
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    </a>    
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       supporto
                     </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
                   </li>
-                </ul>    
-
+                </ul> 
                 <!-- NAVBAR RIGHT -->
                 <ul class="navbar-nav me-2 mb-2 mb-lg-0 gap-4 align-items-center">
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       my playstation
                     </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
                   </li>
                   <li>
                     <button class="btn btn-outline bg-dark text-light rounded-pill" type="submit">Accedi</button>
@@ -118,8 +88,10 @@
                   </li>
                 </ul>
               </div>
+              
             </div>
           </nav>
+      </div>
     </header>
 
     <!-- SECTION BUY NOW -->
@@ -140,6 +112,8 @@
           </div>
         </div>
       </div>
+
+      <!-- GAME LIST -->
       <div class="list-game my-4">
         <div class="container-fluid">
           <div class="row g-4">
@@ -170,6 +144,8 @@
     <!-- SECTION PLAYSTATION INFO -->
     <section id="playstation-info" class="pt-5 mb-5">
       <div class="container-fluid">
+
+        <!-- ROW THIS IS PLAYSTATION 5 -->
         <div class="row mb-5">
           <div class="col-12 d-flex justify-content-center">
             <div class="card border-0">
@@ -181,6 +157,8 @@
             </div>
           </div>
         </div>
+
+        <!-- ROW PLAYSTATION 5 CONSOLE -->
         <div class="row">
           <div class="col-12 col-md-6 d-flex align-items-center">
             <div class="card border-0">
@@ -197,6 +175,8 @@
             </figure>
           </div>
         </div>
+
+        <!-- ROW ACCESSORY PLAYSTATION 5-->
         <div class="row justify-content-md-around">
           <div class="col-4 col-md-2">
               <img src="img/playstation-5-thumb.png" alt="" class="w-100">
@@ -222,6 +202,8 @@
     <section id="new-releases" class="bg-dark text-light">
       <div class="on-screen position-relative">
         <div class="container-fluid position-absolute bottom-0">
+
+          <!-- ROW GAME ON-SCREEN -->
           <div class="row">
             <div class="col-12 col-lg-5">
               <div class="card pb-5 bg-transparent border-0 text-light" >
@@ -236,6 +218,8 @@
           </div>
         </div>
       </div>
+
+      <!-- ROW NEW RELEASES AND LIST GAMES -->
       <div class="container-fluid mt-3">
         <div class="row">
           <div class="col-12">
@@ -305,6 +289,8 @@
     <!-- SECTION EXPLORE PLAYSTATION -->
     <section id="explore-playstation" class="mt-3 mb-5">
       <div class="container-fluid">
+
+        <!-- ROW EXPLORE PLAYSTATION 4 -->
         <div class="row">
           <div class="col-12">
             <div class="card border-0">
@@ -318,6 +304,8 @@
               </div>
             </div>
           </div>
+
+          <!-- COL PLAYSTATION 4 -->
           <div class="row">
             <div class="col-12 col-md-4">
               <div class="card py-4 border-0">
@@ -329,6 +317,8 @@
                 </div>
               </div>
             </div>
+
+            <!-- COL PLAYSTATION VR -->
             <div class="col-12 col-md-4">
               <div class="card py-4 border-0">
                 <img src="img/double11-202010-tw-psvr.jpg" class="card-img-top" alt="...">
@@ -339,6 +329,8 @@
                 </div>
               </div>
             </div>
+
+            <!-- COL ACCESSORY PLAYSTATION 4 -->
             <div class="col-12 col-md-4">
               <div class="card py-4 border-0">
                 <img src="img/dualshock-4-listing-thumb.jpg" class="card-img-top" alt="...">
@@ -390,6 +382,8 @@
               </div>
             </div>
           </div>
+
+          <!-- COL IMAGES -->
           <div class="col-12 col-md-4">
             <img src="img/playstation-store-games-under-20-spotlight.jpg" alt="" class="w-100">      
           </div>
@@ -461,6 +455,8 @@
 
     <!-- FOOTER -->
     <footer class="bg-primary text-light">
+
+      <!-- FOOTER TOP -->
       <div class="footer-top">
         <div class="container-fluid py-5">
           <div class="row d-flex gy-3">
@@ -475,6 +471,8 @@
                 <address>Country / Region: Italy</address>
               </div>
             </div>
+
+            <!-- LIST 1 LINK FOOTER -->
             <div class="col-12 col-md-4 col-lg-2 text-md-center">
               <ul class="list-group list-group-flush py-0">
                 <li class="list-group-item bg-transparent border-0 py-1">
@@ -494,6 +492,8 @@
                 </li>
               </ul>
             </div>
+
+            <!-- LIST 2 LINK FOOTER -->
             <div class="col-12 col-md-4 col-lg-2 text-md-center">
               <ul class="list-group list-group-flush py-0">
                 <li class="list-group-item bg-transparent border-0 py-1">
@@ -513,6 +513,8 @@
                 </li>
               </ul>
             </div>
+
+            <!-- LIST 3 LINK FOOTER -->
             <div class="col-12 col-md-4 col-lg-2 text-md-center">
               <ul class="list-group list-group-flush py-0">
                 <li class="list-group-item bg-transparent border-0 py-1">
@@ -529,6 +531,8 @@
           </div>
         </div>
       </div>
+
+      <!-- FOOTER BOTTOM -->
       <div class="footer-bottom">
         <div class="container-fluid">
           <div class="row">

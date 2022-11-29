@@ -1,5 +1,9 @@
 
 /* HEADER */
+.header-top {
+    height: 50px;
+}
+
 header .nav-link  {
     color: black;
     font-weight: 500;
@@ -11,7 +15,8 @@ header .nav-link  {
 .jumbotron {
     background-image: url(../img/jumbo-bg.png);
     height: 500px;
-    background-position: center;
+    background-position-y: 100px;
+    background-position-x: 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -78,4 +83,26 @@ footer .footer-top a {
 
 #ps-plus .btn:hover {
     box-shadow: inset 0 0 0 2px grey;
+}
+
+#playstation-info .col-4 img, .col-md-2 img {
+    cursor: pointer;
+    opacity: .5;
+}
+
+#playstation-info .col-4 img:hover, .col-md-2 img:hover {
+
+    box-shadow: 0 2px 0px 0px blue;
+    opacity: 1;
+
+}
+
+/* TRANSITION */
+.list-game .col-6, .col-sm-4, .col-lg-2 {
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.list-game .col-6:hover, .col-sm-4:hover, .col-lg-2:hover {
+    transform: translateY(-15px);
 }
