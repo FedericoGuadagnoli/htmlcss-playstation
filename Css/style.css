@@ -103,6 +103,6 @@ footer .footer-top a {
     transition: transform .5s;
 }
 
-.list-game .col-6:hover, .col-sm-4:hover, .col-lg-2:hover {
+#buy-now .list-game .col-6:hover, #buy-now .list-game .col-sm-4:hover, #buy-now .list-game .col-lg-2:hover {
     transform: translateY(-15px);
 }
